@@ -8,10 +8,20 @@
  *    - Create Target.ts.
  */
 
+import { Identifier, TargetType } from '@/Contracts/Container';
+
 export interface Target {
-    getName(): String;
-    getIdentifier(): String;
-    isOptional():Boolean;
-    isTagged():Boolean;
-    isArray():Boolean;
+  getName(): String | Symbol;
+
+  getIdentifier(): Identifier;
+
+  isOptional(): Boolean;
+
+  isTagged(): Boolean;
+
+  isArray(): Boolean;
+
+  hasTag(tag: String): Boolean;
+
+  getType(): TargetType;
 }

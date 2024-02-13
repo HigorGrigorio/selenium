@@ -17,4 +17,5 @@ export * from './RequestScope';
 export * from './Request';
 export * from './DynamicValue';
 export * from './Context';
-export * from './RequestScope';
+export * from './Target';
+export * from './TargetType';

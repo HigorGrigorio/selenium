@@ -19,4 +19,6 @@ export enum MetadataTypes {
     Named = 'selenium:named',
     Inject = 'selenium:inject',
     Identifier = 'selenium:identifier',
+    Optional = 'selenium:optional',
+    Array = 'selenium:array',
 }

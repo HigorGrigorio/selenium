@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1707482047814" clover="3.2.0">
+  <project timestamp="1707482047815" name="All files">
+    <metrics statements="287" coveredstatements="197" conditionals="102" coveredconditionals="51" methods="67" coveredmethods="45" elements="456" coveredelements="293" complexity="0" loc="287" ncloc="287" packages="13" files="29" classes="29"/>
+    <package name="Annotations">
+      <metrics statements="29" coveredstatements="22" conditionals="10" coveredconditionals="3" methods="6" coveredmethods="5"/>
+      <file name="Inject.ts" path="C:\Users\higor\Desktop\freelas\selenium\src\Core\Annotations\Inject.ts">
+        <metrics statements="10" coveredstatements="8" conditionals="3" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="6" type="stmt"/>
+        <line num="19" count="6" type="cond" truecount="0" falsecount="1"/>
+        <line num="20" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="24" count="6" type="stmt"/>
+      </file>
+      <file name="Injectable.ts" path="C:\Users\higor\Desktop\freelas\selenium\src\Core\Annotations\Injectable.ts">
+        <metrics statements="11" coveredstatements="9" conditionals="5" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="16" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="17" count="9" type="stmt"/>
+        <line num="18" count="9" type="cond" truecount="0" falsecount="1"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="22" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="9" type="stmt"/>
+        <line num="25" count="9" type="cond" truecount="0" falsecount="1"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="29" count="9" type="stmt"/>
+      </file>
+      <file name="Metadata.ts" path="C:\Users\higor\Desktop\freelas\selenium\src\Core\Annotations\Metadata.ts">
+        <metrics statements="7" coveredstatements="4" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="20" count="6" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
+        <line num="26" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+      </file>
+      <file name="index.ts" path="C:\Users\higor\Desktop\freelas\selenium\src\Core\Annotations\index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Annotations.Constants">
+      <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="MetadataTypes.ts" path="C:\Users\higor\Desktop\freelas\selenium\src\Core\Annotations\Constants\MetadataTypes.ts">
+        <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="11" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="C:\Users\higor\Desktop\freelas\selenium\src\Core\Annotations\Constants\index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Annotations.Utils">
+      <metrics statements="33" coveredstatements="22" conditionals="14" coveredconditionals="5" methods="9" coveredmethods="6"/>
+      <file name="MetadataUtils.ts" path="C:\Users\higor\Desktop\freelas\selenium\src\Core\Annotations\Utils\MetadataUtils.ts">
+        <metrics statements="33" coveredstatements="22" conditionals="14" coveredconditionals="5" methods="9" coveredmethods="6"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="21" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="22" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="26" count="6" type="stmt"/>
+        <line num="28" count="6" type="stmt"/>
+        <line num="37" count="6" type="stmt"/>
+        <line num="38" count="6" type="stmt"/>
+        <line num="40" count="6" type="cond" truecount="0" falsecount="1"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="44" count="6" type="cond" truecount="3" falsecount="1"/>
+        <line num="46" count="6" type="cond" truecount="0" falsecount="1"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="55" count="6" type="stmt"/>
+        <line num="56" count="6" type="stmt"/>
+        <line num="57" count="6" type="stmt"/>
+        <line num="61" count="6" type="cond" truecount="0" falsecount="1"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="72" count="6" type="stmt"/>
+        <line num="73" count="6" type="stmt"/>
+        <line num="81" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="91" count="6" type="stmt"/>
+        <line num="96" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="97" count="6" type="stmt"/>
+        <line num="99" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="Container">
+      <metrics statements="98" coveredstatements="81" conditionals="45" coveredconditionals="29" methods="20" coveredmethods="16"/>
+      <file name="Binding.ts" path="C:\Users\higor\Desktop\freelas\selenium\src\Core\Container\Binding.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="17" count="15" type="stmt"/>
+        <line num="20" count="15" type="stmt"/>
+        <line num="21" count="15" type="stmt"/>
+        <line num="22" count="15" type="stmt"/>
+        <line num="25" count="15" type="stmt"/>
+      </file>
+      <file name="Container.ts" path="C:\Users\higor\Desktop\freelas\selenium\src\Core\Container\Container.ts">
+        <metrics statements="92" coveredstatements="75" conditionals="45" coveredconditionals="29" methods="19" coveredmethods="15"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="51" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="54" count="7" type="stmt"/>
+        <line num="58" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="66" count="42" type="cond" truecount="1" falsecount="1"/>
+        <line num="76" count="15" type="cond" truecount="3" falsecount="1"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="86" count="0" type="stmt"/>
+        <line num="88" count="15" type="stmt"/>
+        <line num="89" count="15" type="stmt"/>
+        <line num="92" count="15" type="cond" truecount="2" falsecount="2"/>
+        <line num="94" count="15" type="stmt"/>
+        <line num="95" count="15" type="stmt"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="103" count="16" type="cond" truecount="1" falsecount="2"/>
+        <line num="109" count="19" type="cond" truecount="1" falsecount="1"/>
+        <line num="119" count="16" type="cond" truecount="0" falsecount="1"/>
+        <line num="120" count="0" type="stmt"/>
+        <line num="123" count="16" type="stmt"/>
+        <line num="125" count="16" type="cond" truecount="1" falsecount="1"/>
+        <line num="128" count="16" type="cond" truecount="0" falsecount="1"/>
+        <line num="129" count="0" type="stmt"/>
+        <line num="131" count="0" type="stmt"/>
+        <line num="134" count="16" type="stmt"/>
+        <line num="136" count="16" type="stmt"/>
+        <line num="138" count="16" type="stmt"/>
+        <line num="140" count="16" type="stmt"/>
+        <line num="144" count="11" type="cond" truecount="1" falsecount="1"/>
+        <line num="146" count="11" type="stmt"/>
+        <line num="148" count="0" type="stmt"/>
+        <line num="153" count="11" type="stmt"/>
+        <line num="155" count="11" type="stmt"/>
+        <line num="156" count="11" type="stmt"/>
+        <line num="157" count="11" type="cond" truecount="1" falsecount="0"/>
+        <line num="158" count="11" type="stmt"/>
+        <line num="162" count="11" type="stmt"/>
+        <line num="166" count="16" type="cond" truecount="4" falsecount="0"/>
+        <line num="167" count="16" type="cond" truecount="4" falsecount="0"/>
+        <line num="168" count="16" type="stmt"/>
+        <line num="170" count="16" type="stmt"/>
+        <line num="172" count="11" type="cond" truecount="1" falsecount="0"/>
+        <line num="173" count="11" type="stmt"/>
+        <line num="174" count="11" type="stmt"/>
+        <line num="177" count="0" type="stmt"/>
+        <line num="180" count="16" type="stmt"/>
+        <line num="184" count="26" type="cond" truecount="1" falsecount="1"/>
+        <line num="188" count="23" type="cond" truecount="4" falsecount="1"/>
+        <line num="191" count="4" type="stmt"/>
+        <line num="192" count="4" type="stmt"/>
+        <line num="194" count="4" type="stmt"/>
+        <line num="196" count="16" type="cond" truecount="1" falsecount="1"/>
+        <line num="200" count="3" type="stmt"/>
+        <line num="201" count="3" type="stmt"/>
+        <line num="203" count="3" type="stmt"/>
+        <line num="205" count="0" type="stmt"/>
+        <line num="210" count="26" type="cond" truecount="1" falsecount="0"/>
+        <line num="211" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="212" count="3" type="stmt"/>
+        <line num="214" count="3" type="stmt"/>
+        <line num="216" count="20" type="stmt"/>
+        <line num="220" count="26" type="stmt"/>
+        <line num="221" count="26" type="stmt"/>
+        <line num="223" count="26" type="cond" truecount="0" falsecount="1"/>
+        <line num="224" count="0" type="stmt"/>
+        <line num="227" count="26" type="stmt"/>
+        <line num="229" count="26" type="stmt"/>
+        <line num="230" count="26" type="stmt"/>
+        <line num="232" count="26" type="stmt"/>
+        <line num="234" count="26" type="stmt"/>
+        <line num="236" count="26" type="stmt"/>
+        <line num="240" count="15" type="stmt"/>
+      </file>
+    </package>
+    <package name="Container.Constants">
+      <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="BindingScope.ts" path="C:\Users\higor\Desktop\freelas\selenium\src\Core\Container\Constants\BindingScope.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="11" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+      <file name="BindingTypes.ts" path="C:\Users\higor\Desktop\freelas\selenium\src\Core\Container\Constants\BindingTypes.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="11" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="C:\Users\higor\Desktop\freelas\selenium\src\Core\Container\Constants\index.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Container.Factories">
+      <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="ValueFactory.ts" path="C:\Users\higor\Desktop\freelas\selenium\src\Core\Container\Factories\ValueFactory.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+      </file>
+      <file name="index.ts" path="C:\Users\higor\Desktop\freelas\selenium\src\Core\Container\Factories\index.ts">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="Container.Syntax">
+      <metrics statements="33" coveredstatements="26" conditionals="2" coveredconditionals="0" methods="12" coveredmethods="9"/>
+      <file name="BindingAsBuilder.ts" path="C:\Users\higor\Desktop\freelas\selenium\src\Core\Container\Syntax\BindingAsBuilder.ts">
+        <metrics statements="29" coveredstatements="25" conditionals="2" coveredconditionals="0" methods="10" coveredmethods="9"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="21" count="33" type="stmt"/>
+        <line num="26" count="11" type="stmt"/>
+        <line num="27" count="11" type="stmt"/>
+        <line num="29" count="11" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="46" count="6" type="cond" truecount="0" falsecount="1"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="50" count="6" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="59" count="2" type="stmt"/>
+        <line num="60" count="2" type="stmt"/>
+        <line num="61" count="2" type="stmt"/>
+        <line num="65" count="3" type="stmt"/>
+        <line num="69" count="3" type="cond" truecount="0" falsecount="1"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="73" count="3" type="stmt"/>
+        <line num="74" count="3" type="stmt"/>
+        <line num="78" count="11" type="stmt"/>
+        <line num="79" count="11" type="stmt"/>
+      </file>
+      <file name="BindingWhenBuilder.ts" path="C:\Users\higor\Desktop\freelas\selenium\src\Core\Container\Syntax\BindingWhenBuilder.ts">
+        <metrics statements="4" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="Contracts.Annotations">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="C:\Users\higor\Desktop\freelas\selenium\src\Core\Contracts\Annotations\index.ts">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="Contracts.Container">
+      <metrics statements="8" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="C:\Users\higor\Desktop\freelas\selenium\src\Core\Contracts\Container\index.ts">
+        <metrics statements="8" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="Contracts.Core">
+      <metrics statements="15" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="C:\Users\higor\Desktop\freelas\selenium\src\Core\Contracts\Core\index.ts">
+        <metrics statements="15" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="Errors">
+      <metrics statements="17" coveredstatements="10" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="0"/>
+      <file name="CoreError.ts" path="C:\Users\higor\Desktop\freelas\selenium\src\Core\Errors\CoreError.ts">
+        <metrics statements="3" coveredstatements="1" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+      </file>
+      <file name="LogicalError.ts" path="C:\Users\higor\Desktop\freelas\selenium\src\Core\Errors\LogicalError.ts">
+        <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+      </file>
+      <file name="MissingParameterError.ts" path="C:\Users\higor\Desktop\freelas\selenium\src\Core\Errors\MissingParameterError.ts">
+        <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+      </file>
+      <file name="NonNullError.ts" path="C:\Users\higor\Desktop\freelas\selenium\src\Core\Errors\NonNullError.ts">
+        <metrics statements="4" coveredstatements="2" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+      </file>
+      <file name="index.ts" path="C:\Users\higor\Desktop\freelas\selenium\src\Core\Errors\index.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Symbol">
+      <metrics statements="6" coveredstatements="0" conditionals="5" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="UniqueSymbol.ts" path="C:\Users\higor\Desktop\freelas\selenium\src\Core\Symbol\UniqueSymbol.ts">
+        <metrics statements="5" coveredstatements="0" conditionals="5" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="19" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+      </file>
+      <file name="index.ts" path="C:\Users\higor\Desktop\freelas\selenium\src\Core\Symbol\index.ts">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="Utils">
+      <metrics statements="20" coveredstatements="10" conditionals="18" coveredconditionals="8" methods="8" coveredmethods="4"/>
+      <file name="Arr.ts" path="C:\Users\higor\Desktop\freelas\selenium\src\Core\Utils\Arr.ts">
+        <metrics statements="9" coveredstatements="1" conditionals="3" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+      </file>
+      <file name="Utils.ts" path="C:\Users\higor\Desktop\freelas\selenium\src\Core\Utils\Utils.ts">
+        <metrics statements="9" coveredstatements="7" conditionals="15" coveredconditionals="8" methods="5" coveredmethods="4"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="17" count="7" type="cond" truecount="2" falsecount="1"/>
+        <line num="18" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="21" count="7" type="stmt"/>
+        <line num="25" count="16" type="cond" truecount="3" falsecount="0"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="35" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="40" count="15" type="cond" truecount="1" falsecount="1"/>
+      </file>
+      <file name="index.ts" path="C:\Users\higor\Desktop\freelas\selenium\src\Core\Utils\index.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

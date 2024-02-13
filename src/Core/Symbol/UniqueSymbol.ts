@@ -30,4 +30,12 @@ export class UniqueSymbol
   public static make(value: Nullable<String> = null): UniqueSymbol {
     return new UniqueSymbol(value);
   }
+
+  public static flatten(value: Nullable<UniqueSymbol | String>): UniqueSymbol {
+    if (value instanceof UniqueSymbol) {
+      return value;
+    }
+
+    return UniqueSymbol.make(value)
+  }
 }

@@ -8,7 +8,7 @@
  *    - Create Inject.ts.
  */
 
-import {MetadataTypes} from "@/Annotations/Constants";
+import {MetaTags} from "@/Annotations/Constants";
 import {BaseTaggedDecorator} from "@/Annotations";
 
-export const Inject = BaseTaggedDecorator(MetadataTypes.Inject);
+export const Inject = BaseTaggedDecorator(MetaTags.Inject);

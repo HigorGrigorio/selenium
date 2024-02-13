@@ -9,21 +9,21 @@
  */
 
 import 'reflect-metadata';
-import {MetadataTypes} from "@/Annotations/Constants";
+import {MetaTags} from "@/Annotations/Constants";
 import {Identifier} from "@/Contracts/Container";
 import {Nullable} from "@/Contracts/Core";
 
 export function Injectable(identifier: Nullable<Identifier> = null) {
     return (target: any) => {
-        if (Reflect.hasOwnMetadata(MetadataTypes.ParamTypes, target)) {
+        if (Reflect.hasOwnMetadata(MetaTags.ParamTypes, target)) {
             throw new Error(`The class ${target.name} is already decorated with @Injectable.`);
         }
 
         const types = Reflect.getMetadata('design:paramtypes', target) || [];
-        Reflect.defineMetadata(MetadataTypes.ParamTypes, types, target);
+        Reflect.defineMetadata(MetaTags.ParamTypes, types, target);
 
         if (identifier) {
-            Reflect.defineMetadata(MetadataTypes.Identifier, identifier, target);
+            Reflect.defineMetadata(MetaTags.Identifier, identifier, target);
         }
 
         return target;

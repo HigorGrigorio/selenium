@@ -8,4 +8,4 @@
  *    - Create index.ts.
  */
 
-export * from './MetadataTypes';
+export * from './MetaTags';

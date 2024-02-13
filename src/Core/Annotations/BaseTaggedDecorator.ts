@@ -11,7 +11,7 @@ import {Identifier} from "@/Contracts/Container";
 import {MissingParameterError} from "@/Errors";
 import {MetadataUtils} from "@/Annotations/Utils/MetadataUtils";
 import {Metadata} from "@/Annotations/Metadata";
-import {MetadataTypes} from "@/Annotations/Constants";
+import {MetaTags} from "@/Annotations/Constants";
 
 export function BaseTaggedDecorator(tag: String | Symbol | Number) {
     return function (key: Identifier) {

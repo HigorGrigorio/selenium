@@ -1,14 +1,14 @@
 /**
- * @file Metadata.ts
+ * @file MetaTags.ts
  * @author Higor Grigorio <higorgrigorio@gmail.com>
  * @date 2024-02-04
  *
  * @changelog
  *  - 2024-02-04 - Higor Grigorio
- *    - Create Metadata.ts.
+ *    - Create MetaTags.ts.
  */
 
-export enum MetadataTypes {
+export enum MetaTags {
     ParamTypes = 'selenium:paramtypes',
     ParamNames = 'selenium:paramnames',
     ReturnType = 'selenium:returntype',

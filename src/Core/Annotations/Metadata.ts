@@ -10,7 +10,7 @@
 
 import {Metadata as MetadataContract} from "@/Contracts/Annotations";
 import {Any, Stringable} from "@/Contracts/Core";
-import {MetadataTypes} from "@/Annotations/Constants";
+import {MetaTags} from "@/Annotations/Constants";
 
 export class Metadata
     implements MetadataContract,
@@ -23,7 +23,7 @@ export class Metadata
     }
 
     toString(): String {
-        if (this.key === MetadataTypes.Named) {
+        if (this.key === MetaTags.Named) {
             return `@Named("${String(this.value).toString()}")`;
         } else {
             return `@Tagged("${this.key.toString()}","${String(this.value).toString()}")`;

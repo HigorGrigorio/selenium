@@ -17,7 +17,7 @@ import {BindingScope, BindingTypes} from "@/Container/Constants";
 import {Binding} from "@/Container/Binding";
 import {LogicalError} from "@/Errors";
 import {Utils} from "@/Utils";
-import {MetadataTypes} from "@/Annotations/Constants";
+import {MetaTags} from "@/Annotations/Constants";
 import {Metadata} from "@/Annotations/Metadata";
 
 export class Container
@@ -73,9 +73,9 @@ export class Container
         let builder;
 
         // check if the abstract has an identifier
-        if (Utils.isObject(abstract) && Reflect.hasOwnMetadata(MetadataTypes.Identifier, abstract)) {
+        if (Utils.isObject(abstract) && Reflect.hasOwnMetadata(MetaTags.Identifier, abstract)) {
             // default binding to the identifier
-            const identifier = Reflect.getMetadata(MetadataTypes.Identifier, abstract);
+            const identifier = Reflect.getMetadata(MetaTags.Identifier, abstract);
             binding = new Binding<T>(identifier);
 
             // create a new binding with the default identifier and set the abstract as the concrete.
@@ -142,7 +142,7 @@ export class Container
 
     protected createByMetadata(metadata: Metadata) {
         switch (metadata.key) {
-            case MetadataTypes.Inject:
+            case MetaTags.Inject:
                 return this.resolve(metadata.value, []);
             default:
                 return null;
@@ -163,8 +163,8 @@ export class Container
     }
 
     protected resolveArguments<T>(abstract: Newable<T>, ...args: Any[]): Any[] {
-        const argTypes = Reflect.getMetadata(MetadataTypes.ParamTypes, abstract) ?? [];
-        const metaArgs = Reflect.getMetadata(MetadataTypes.Tagged, abstract) ?? [];
+        const argTypes = Reflect.getMetadata(MetaTags.ParamTypes, abstract) ?? [];
+        const metaArgs = Reflect.getMetadata(MetaTags.Tagged, abstract) ?? [];
         const parsedArgs = []
 
         for (let i = 0; i < argTypes.length; i++) {

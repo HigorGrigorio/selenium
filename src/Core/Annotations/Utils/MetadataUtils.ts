@@ -13,7 +13,7 @@ import {Metadata} from "@/Contracts/Annotations";
 import {Arr, Utils} from "@/Utils";
 import {ConstructorFunction} from "@/Contracts/Core/ConstructorFunction";
 import {LogicalError} from "@/Errors";
-import {MetadataTypes} from "@/Annotations/Constants";
+import {MetaTags} from "@/Annotations/Constants";
 
 export class MetadataUtils {
 
@@ -70,7 +70,7 @@ export class MetadataUtils {
         metadata: Metadata | Array<Metadata>
     ) {
         this.throwIfMethodParameter(parameterName);
-        this.tagParameterOrProperty(MetadataTypes.Tagged, annotationTarget, parameterIndex.toString(), metadata);
+        this.tagParameterOrProperty(MetaTags.Tagged, annotationTarget, parameterIndex.toString(), metadata);
     }
 
     public static tagProperty(
@@ -82,7 +82,7 @@ export class MetadataUtils {
             throw new LogicalError('Cannot tag properties of a constructor. Please, use the tagParameter decorator instead.');
         }
 
-        this.tagParameterOrProperty(MetadataTypes.TaggedProperty, annotationTarget, propertyName, metadata);
+        this.tagParameterOrProperty(MetaTags.TaggedProperty, annotationTarget, propertyName, metadata);
     }
 
     public static createTaggedDecorator(

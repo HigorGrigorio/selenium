@@ -11,7 +11,7 @@
 import { Identifier, Target as TargetContract, TargetType } from '@/Contracts/Container';
 import { Metadata } from '@/Contracts/Annotations';
 import { UniqueSymbol } from '@/Symbol';
-import { MetadataTypes } from '@/Annotations/Constants';
+import { MetaTags } from '@/Annotations/Constants';
 
 export class Target implements TargetContract {
   private id: UniqueSymbol;
@@ -33,15 +33,15 @@ export class Target implements TargetContract {
   }
 
   isOptional(): Boolean {
-    return this.hasTag(MetadataTypes.Optional)
+    return this.hasTag(MetaTags.Optional)
   }
 
   isTagged(): Boolean {
-    return this.hasTag(MetadataTypes.Tagged);
+    return this.hasTag(MetaTags.Tagged);
   }
 
   isArray(): Boolean {
-    return this.hasTag(MetadataTypes.Array);
+    return this.hasTag(MetaTags.Array);
   }
 
   getName(): String | Symbol {

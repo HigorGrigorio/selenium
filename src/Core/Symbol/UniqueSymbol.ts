@@ -8,22 +8,26 @@
  *    - Create UniqueSymbol.ts.
  */
 
-import {v4} from 'uuid';
-import {Nullable, Stringable, Valuable} from "@/Contracts/Core";
+import { v4 } from 'uuid';
+import { Nullable, Stringable, Valuable } from '@/Contracts/Core';
 
 export class UniqueSymbol
-    implements Valuable<String>, Stringable {
-    private readonly value: String;
+  implements Valuable<String>, Stringable {
+  private readonly value: String;
 
-    constructor(value: Nullable<String> = null) {
-        this.value = value ?? v4();
-    }
+  constructor(value: Nullable<String> = null) {
+    this.value = value ?? v4();
+  }
 
-    public toString(): String {
-        return this.value;
-    }
+  public toString(): String {
+    return this.value;
+  }
 
-    public toValue(): String {
-        return this.value;
-    }
+  public toValue(): String {
+    return this.value;
+  }
+
+  public static make(value: Nullable<String> = null): UniqueSymbol {
+    return new UniqueSymbol(value);
+  }
 }

@@ -8,17 +8,21 @@
  *    - Create Request.ts.
  */
 
-import {UniqueSymbol} from "@/Symbol";
-import {Binding, Identifier, RequestScope} from "@/Contracts/Container";
-import {Target} from "@/Contracts/Container/Target";
-import {Container} from "@/Container/Container";
+import { UniqueSymbol } from '@/Symbol';
+import { Binding, Container, Identifier, RequestScope, Target } from '@/Contracts/Container';
 
 export interface Request<T = unknown> {
-    id: UniqueSymbol
-    abstract: Identifier<T>;
-    parent: Request<T> | null;
-    bindings: Binding<T>[];
-    scope: RequestScope
-    target: Target;
-    container: Container;
+  id: UniqueSymbol;
+
+  getBindings(): Binding<T>[];
+
+  getIdentifier(): Identifier<T>;
+
+  getScope(): RequestScope;
+
+  getTarget(): Target;
+
+  getContainer(): Container;
+
+  getParent(): Request<T> | null;
 }
